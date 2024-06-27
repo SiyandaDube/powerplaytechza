@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ff6a00;
+    font-family: 'Poppins',sans-serif;
+    height: 350vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(0 255 255),rgb(255, 216, 0)), url(/Bin/images/PowerPlayTechlogo1.png);
+    background-color: rgb(0 255 255);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-position: rgba(255, 0, 110);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 11vh;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.8rem;
+    font-size: 600%;
+    font-family: Damion, cursive;
+}
+
+    .logo .fas {
+        font-size: 50px;
+    }
+
+    .logo p {
+        width: 130px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+ul.navbar {
+    display: flex;
+    list-style: none;
+}
+
+    ul.navbar li {
+        width: 120px;
+    }
+
+        ul.navbar li a {
+            text-decoration: none;
+            color: green;
+        }
+
+            ul.navbar li a.active {
+                color: darkslategrey;
+            }
+
+            ul.navbar li a:hover:not(.active) {
+                color: burlywood;
+            }
+
+#btn {
+    width: 350px;
+    height: 10vh;
+    background: none;
+    color: cornflowerblue;
+    outline: none;
+    border: none;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+    #btn .fas {
+        margin-right: 10px;
+    }
+/*Header ends here*/
+
+/*Hero section ends here*/
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+    .logo-section header {
+        width: 250px;
+        font-size: 2rem;
+        color: blueviolet;
+    }
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+    .section-1 h2 {
+        font-size: 1.5rem;
+        color: aliceblue;
+    }
+
+.section-1-img .img {
+    width: 100px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main-width {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+    .hero header .logo h2 a {
+        display: block;
+        font-size: 32px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+    }
+
+    .hero header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0 30px;
+    }
+
+nav ol li {
+    list-style: none;
+    display: inline-block;
+}
+
+    nav ol li a {
+        text-decoration: none;
+        color: white;
+        margin-Left: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: .4s;
+    }
+
+    nav ol li:not(last-child) a:hover,
+    nav ol li:not(last-child) a:focus {
+        border-bottom: 2px solid white;
+    }
+
+.main_container {
+    margin: 6% 0 0 36%;
+    position: relative;
+    width: 25%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.main_container:hover .overlay {
+    height: 100%;
+}
+
+
+p8 {
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    text-align: center;
+    font-family: Damion, cursive;
+    transform: rotate(-5deg)skewX(-5deg);
+}
+
+p7 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    margin: 60% 0 0 18%;
+    width: 70%;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+}
