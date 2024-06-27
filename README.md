@@ -1,2 +1,2 @@
 # powerplaytechza
-Gaming Website
+Gaming Ecommerce Website
